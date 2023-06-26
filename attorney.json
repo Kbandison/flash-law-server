@@ -1,0 +1,230 @@
+[
+  {
+    "name": "John Smith",
+    "experience-length": 10,
+    "education": "J.D. from Harvard Law School (Graduation: May 2011)",
+    "practice-specialty": "Corporate law",
+    "practice-areas": [
+      "Mergers and acquisitions",
+      "Corporate governance",
+      "Securities law"
+    ],
+    "achievements": "Advised clients on complex corporate transactions, including mergers and acquisitions, corporate governance matters, and securities law compliance. Known for his expertise in corporate law and his ability to provide strategic legal counsel.",
+    "summary": "With 10 years of experience, John Smith is a highly skilled corporate law attorney specializing in mergers and acquisitions, corporate governance, and securities law. He provides strategic legal counsel to clients involved in complex corporate transactions, guiding them through the intricacies of mergers and acquisitions, corporate governance matters, and securities law compliance. John is known for his extensive knowledge of corporate laws and regulations, his meticulous attention to detail, and his ability to provide effective legal solutions that align with his clients' business objectives. He works closely with businesses of all sizes, from startups to established corporations, to help them navigate legal challenges and achieve their growth and expansion goals.",
+    "photo": "https://www.pexels.com/photo/businessman-standing-with-his-hands-on-his-desk-4427616/"
+  },
+  {
+    "name": "Sarah Johnson",
+    "experience-length": 29,
+    "education": "J.D. from Yale Law School (Graduation: May 1992)",
+    "practice-specialty": "Intellectual property law",
+    "practice-areas": ["Patent law", "Trademark law", "Copyright law"],
+    "achievements": "Handled a wide range of intellectual property matters, including patent prosecution, trademark registration, and copyright infringement cases. Known for her expertise in intellectual property law and her dedication to protecting clients' rights.",
+    "summary": "With 29 years of experience, Sarah Johnson is a skilled intellectual property attorney specializing in patent law, trademark law, and copyright law. She provides comprehensive legal services to clients, assisting them with patent prosecution, trademark registration, and resolving copyright infringement disputes. Sarah is known for her in-depth understanding of intellectual property laws, her meticulous attention to detail in drafting and prosecuting patent applications, and her commitment to protecting her clients' valuable intellectual assets. She works closely with inventors, entrepreneurs, and businesses to help them secure and enforce their intellectual property rights effectively.",
+    "photo": "https://www.pexels.com/photo/businesswoman-in-her-office-4427610/"
+  },
+  {
+    "name": "Michael Davis",
+    "experience-length": 12,
+    "education": "J.D. from Stanford Law School (Graduation: May 2009)",
+    "practice-specialty": "Criminal law",
+    "practice-areas": ["White-collar crimes", "Homicide", "Drug offenses"],
+    "achievements": "Successfully defended clients in high-profile criminal cases, including white-collar crimes, homicide, and drug offenses. Known for his courtroom expertise and his dedication to protecting clients' rights.",
+    "summary": "With 12 years of experience, Michael Davis is a highly respected criminal defense attorney specializing in white-collar crimes, homicide cases, and drug offenses. He has successfully defended clients in high-profile criminal cases, earning a reputation for his exceptional courtroom expertise, strategic defense strategies, and unwavering commitment to protecting his clients' rights. Michael works diligently to analyze the unique aspects of each case, build a strong defense, and ensure that his clients receive fair treatment under the law. He provides personalized attention and rigorous representation to clients facing serious criminal charges, aiming to achieve the best possible outcomes.",
+    "photo": "https://www.pexels.com/photo/businessman-looking-sideways-4427620/"
+  },
+  {
+    "name": "Jessica Thompson",
+    "experience-length": 8,
+    "education": "J.D. from Columbia Law School (Graduation: May 2013)",
+    "practice-specialty": "Family law",
+    "practice-areas": ["Divorce", "Child custody", "Adoption"],
+    "achievements": "Handled a wide range of family law cases, including divorce, child custody disputes, and adoption proceedings. Known for her compassionate approach and her dedication to helping families navigate challenging legal issues.",
+    "summary": "With 8 years of experience, Jessica Thompson is a compassionate family law attorney specializing in divorce, child custody, and adoption cases. She provides comprehensive legal services to individuals and families, guiding them through the complexities of family law matters with empathy and expertise. Jessica is known for her compassionate approach, her ability to listen to her clients' needs, and her dedication to finding practical and favorable solutions for families facing challenging legal issues. She works closely with her clients to protect their rights, promote the best interests of children, and support families through difficult transitions.",
+    "photo": "https://www.pexels.com/photo/businesswoman-in-her-office-4427622/"
+  },
+  {
+    "name": "William Anderson",
+    "experience-length": 23,
+    "education": "J.D. from University of Chicago Law School (Graduation: May 1997)",
+    "practice-specialty": "Civil litigation",
+    "practice-areas": [
+      "Personal injury",
+      "Contract disputes",
+      "Business litigation"
+    ],
+    "achievements": "Successfully represented clients in civil litigation cases, including personal injury claims, contract disputes, and business litigation. Known for his strong advocacy skills and his commitment to obtaining favorable outcomes for his clients.",
+    "summary": "With 23 years of experience, William Anderson is a highly skilled civil litigation attorney specializing in personal injury claims, contract disputes, and business litigation. He has a track record of success in representing clients in complex civil cases, utilizing his strong advocacy skills, extensive legal knowledge, and strategic approach to obtain favorable outcomes. William works closely with his clients to understand their goals, assess the merits of their cases, and provide effective legal representation throughout the litigation process. He is committed to protecting his clients' rights, seeking justice, and maximizing compensation for their losses.",
+    "photo": "https://www.pexels.com/photo/businessman-sitting-on-his-desk-and-looking-at-the-camera-4427614/"
+  },
+  {
+    "name": "Jennifer Wilson",
+    "experience-length": 7,
+    "education": "J.D. from University of California, Berkeley School of Law (Graduation: May 2014)",
+    "practice-specialty": "Immigration law",
+    "practice-areas": ["Visa applications", "Deportation defense", "Asylum"],
+    "achievements": "Assisted clients in various immigration matters, including visa applications, deportation defense, and asylum cases. Known for her comprehensive understanding of immigration laws and her dedication to helping individuals navigate the immigration process.",
+    "summary": "With 7 years of experience, Jennifer Wilson is a dedicated immigration attorney specializing in visa applications, deportation defense, and asylum cases. She provides comprehensive legal services to individuals and families, guiding them through the complexities of the immigration process with compassion and expertise. Jennifer is known for her in-depth knowledge of immigration laws, her strong advocacy skills, and her commitment to helping her clients achieve their immigration goals. She works tirelessly to protect her clients' rights, ensure a fair and just immigration process, and provide effective legal representation in all immigration-related matters.",
+    "photo": "https://www.pexels.com/photo/serious-businesswoman-hurrying-with-documents-from-courthouse-5673501/"
+  },
+  {
+    "name": "David Martinez",
+    "experience-length": 9,
+    "education": "J.D. from University of Michigan Law School (Graduation: May 2012)",
+    "practice-specialty": "Intellectual property law",
+    "practice-areas": ["Patent law", "Trademark law", "Copyright law"],
+    "achievements": "Handled a wide range of intellectual property matters, including patent prosecution, trademark registration, and copyright infringement cases. Known for his expertise in intellectual property law and his commitment to protecting clients' rights.",
+    "summary": "With 9 years of experience, David Martinez is a skilled intellectual property attorney specializing in patent law, trademark law, and copyright law. He provides comprehensive legal services to clients, assisting them with patent prosecution, trademark registration, and resolving copyright infringement disputes. David is known for his extensive knowledge of intellectual property laws, his meticulous attention to detail in drafting and prosecuting patent applications, and his commitment to protecting his clients' valuable intellectual assets. He works closely with inventors, entrepreneurs, and businesses to help them secure and enforce their intellectual property rights effectively.",
+    "photo": "https://www.pexels.com/photo/glad-asian-businessman-standing-with-documents-in-hand-in-office-5668774/"
+  },
+  {
+    "name": "Megan Thompson",
+    "experience-length": 12,
+    "education": "J.D. from Harvard Law School (Graduation: May 2009)",
+    "practice-specialty": "Criminal law",
+    "practice-areas": ["White-collar crimes", "Homicide", "Drug offenses"],
+    "achievements": "Successfully defended clients in high-profile criminal cases, including white-collar crimes, homicide, and drug offenses. Known for her courtroom expertise and her dedication to protecting clients' rights.",
+    "summary": "With 12 years of experience, Megan Thompson is a highly respected criminal defense attorney specializing in white-collar crimes, homicide cases, and drug offenses. She has successfully defended clients in high-profile criminal cases, earning a reputation for her exceptional courtroom expertise, strategic defense strategies, and unwavering commitment to protecting her clients' rights. Megan works diligently to analyze the unique aspects of each case, build a strong defense, and ensure that her clients receive fair treatment under the law. She provides personalized attention and rigorous representation to clients facing serious criminal charges, aiming to achieve the best possible outcomes.",
+    "photo": "https://www.pexels.com/photo/confident-black-businesswoman-sitting-at-desk-in-modern-workplace-5669604/"
+  },
+  {
+    "name": "Robert Johnson",
+    "experience-length": 8,
+    "education": "J.D. from Columbia Law School (Graduation: May 2013)",
+    "practice-specialty": "Family law",
+    "practice-areas": ["Divorce", "Child custody", "Adoption"],
+    "achievements": "Handled a wide range of family law cases, including divorce, child custody disputes, and adoption proceedings. Known for his compassionate approach and his dedication to helping families navigate challenging legal issues.",
+    "summary": "With 8 years of experience, Robert Johnson is a compassionate family law attorney specializing in divorce, child custody, and adoption cases. He provides comprehensive legal services to individuals and families, guiding them through the complexities of family law matters with empathy and expertise. Robert is known for his compassionate approach, his ability to listen to his clients' needs, and his dedication to finding practical and favorable solutions for families facing challenging legal issues. He works closely with his clients to protect their rights, promote the best interests of children, and support families through difficult transitions.",
+    "photo": "https://www.pexels.com/photo/man-in-black-vest-sitting-behind-a-desk-5058925/"
+  },
+  {
+    "name": "Amy Davis",
+    "experience-length": 11,
+    "education": "J.D. from University of Chicago Law School (Graduation: May 2010)",
+    "practice-specialty": "Civil litigation",
+    "practice-areas": [
+      "Personal injury",
+      "Contract disputes",
+      "Business litigation"
+    ],
+    "achievements": "Successfully represented clients in civil litigation cases, including personal injury claims, contract disputes, and business litigation. Known for her strong advocacy skills and her commitment to obtaining favorable outcomes for her clients.",
+    "summary": "With 11 years of experience, Amy Davis is a highly skilled civil litigation attorney specializing in personal injury claims, contract disputes, and business litigation. She has a track record of success in representing clients in complex civil cases, utilizing her strong advocacy skills, extensive legal knowledge, and strategic approach to obtain favorable outcomes. Amy works closely with her clients to understand their goals, assess the merits of their cases, and provide effective legal representation throughout the litigation process. She is committed to protecting her clients' rights, seeking justice, and maximizing compensation for their losses.",
+    "photo": "https://www.pexels.com/photo/young-albino-businesswoman-writing-notes-in-office-5273665/"
+  },
+  {
+    "name": "Matthew Roberts",
+    "experience-length": 7,
+    "education": "J.D. from University of California, Berkeley School of Law (Graduation: May 2014)",
+    "practice-specialty": "Employment law",
+    "practice-areas": [
+      "Discrimination claims",
+      "Wrongful termination",
+      "Employment contracts"
+    ],
+    "achievements": "Provided legal representation and guidance to clients in employment law matters, including discrimination claims, wrongful termination cases, and employment contract negotiations. Known for his deep understanding of employment laws and his commitment to advocating for employees' rights.",
+    "summary": "With 7 years of experience, Matthew Roberts is an experienced employment law attorney dedicated to protecting employees' rights and promoting workplace fairness. He provides legal representation and guidance to clients in a wide range of employment law matters, including discrimination claims, wrongful termination cases, and the negotiation of employment contracts. Matthew is known for his deep understanding of employment laws and his commitment to advocating for his clients' rights. He works tirelessly to ensure that his clients receive fair treatment, equal opportunities, and just compensation in the workplace. Matthew strives to create a positive impact on his clients' lives by addressing workplace injustices and promoting a culture of fairness and inclusivity.",
+    "photo": "https://www.pexels.com/photo/a-portrait-of-a-businessman-7841788/"
+  },
+  {
+    "name": "Emily Collins",
+    "experience-length": 10,
+    "education": "J.D. from University of California, Berkeley School of Law (Graduation: May 2013)",
+    "practice-specialty": "Real estate law",
+    "practice-areas": [
+      "Residential transactions",
+      "Commercial leases",
+      "Real estate litigation"
+    ],
+    "achievements": "Represented clients in a wide range of real estate matters, including residential transactions, commercial leases, and real estate litigation. Known for her comprehensive knowledge of real estate laws and her ability to provide effective legal solutions.",
+    "summary": "With 10 years of experience, Emily Collins is a knowledgeable real estate attorney specializing in residential transactions, commercial leases, and real estate litigation. She provides comprehensive legal services to clients involved in buying, selling, leasing, or resolving disputes related to real estate properties. Emily is known for her comprehensive understanding of real estate laws, her attention to detail, and her ability to provide effective legal solutions in complex real estate matters. She works closely with her clients to protect their interests, navigate legal complexities, and achieve favorable outcomes in real estate transactions and litigation.",
+    "photo": "https://www.pexels.com/photo/smiling-woman-with-notebook-in-office-hall-4173256/"
+  },
+  {
+    "name": "Christopher Hughes",
+    "experience-length": 28,
+    "education": "J.D. from Harvard Law School (Graduation: May 1992)",
+    "practice-specialty": "Corporate law",
+    "practice-areas": [
+      "Mergers and acquisitions",
+      "Corporate governance",
+      "Securities law"
+    ],
+    "achievements": "Advised clients on complex corporate transactions, including mergers and acquisitions, corporate governance matters, and securities law compliance. Known for his expertise in corporate law and his ability to provide strategic legal counsel.",
+    "summary": "With 28 years of experience, Christopher Hughes is a highly skilled corporate law attorney specializing in mergers and acquisitions, corporate governance, and securities law. He provides strategic legal counsel to clients involved in complex corporate transactions, guiding them through the intricacies of mergers and acquisitions, corporate governance matters, and securities law compliance. Christopher is known for his extensive knowledge of corporate laws and regulations, his meticulous attention to detail, and his ability to provide effective legal solutions that align with his clients' business objectives. He works closely with businesses of all sizes, from startups to established corporations, to help them navigate legal challenges and achieve their growth and expansion goals.",
+    "photo": "https://www.pexels.com/photo/black-businessman-standing-with-hands-in-pockets-near-glass-wall-5648408/"
+  },
+  {
+    "name": "Lauren Adams",
+    "experience-length": 9,
+    "education": "J.D. from Yale Law School (Graduation: May 2013)",
+    "practice-specialty": "Intellectual property law",
+    "practice-areas": ["Patent law", "Trademark law", "Copyright law"],
+    "achievements": "Handled a wide range of intellectual property matters, including patent prosecution, trademark registration, and copyright infringement cases. Known for her expertise in intellectual property law and her dedication to protecting clients' rights.",
+    "summary": "With 9 years of experience, Lauren Adams is a skilled intellectual property attorney specializing in patent law, trademark law, and copyright law. She provides comprehensive legal services to clients, assisting them with patent prosecution, trademark registration, and resolving copyright infringement disputes. Lauren is known for her in-depth understanding of intellectual property laws, her meticulous attention to detail in drafting and prosecuting patent applications, and her commitment to protecting her clients' valuable intellectual assets. She works closely with inventors, entrepreneurs, and businesses to help them secure and enforce their intellectual property rights effectively.",
+    "photo": "https://www.pexels.com/photo/serious-young-female-entrepreneur-working-on-laptop-5325108/"
+  },
+  {
+    "name": "Daniel Wilson",
+    "experience-length": 11,
+    "education": "J.D. from Stanford Law School (Graduation: May 2010)",
+    "practice-specialty": "Criminal law",
+    "practice-areas": ["White-collar crimes", "Homicide", "Drug offenses"],
+    "achievements": "Successfully defended clients in high-profile criminal cases, including white-collar crimes, homicide, and drug offenses. Known for his courtroom expertise and his dedication to protecting clients' rights.",
+    "summary": "With 11 years of experience, Daniel Wilson is a highly respected criminal defense attorney specializing in white-collar crimes, homicide cases, and drug offenses. He has successfully defended clients in high-profile criminal cases, earning a reputation for his exceptional courtroom expertise, strategic defense strategies, and unwavering commitment to protecting his clients' rights. Daniel works diligently to analyze the unique aspects of each case, build a strong defense, and ensure that his clients receive fair treatment under the law. He provides personalized attention and rigorous representation to clients facing serious criminal charges, aiming to achieve the best possible outcomes.",
+    "photo": "https://www.pexels.com/photo/well-dressed-ethnic-man-standing-near-window-4357505/"
+  },
+  {
+    "name": "Sophia Thompson",
+    "experience-length": 8,
+    "education": "J.D. from Columbia Law School (Graduation: May 2013)",
+    "practice-specialty": "Family law",
+    "practice-areas": ["Divorce", "Child custody", "Adoption"],
+    "achievements": "Handled a wide range of family law cases, including divorce, child custody disputes, and adoption proceedings. Known for her compassionate approach and her dedication to helping families navigate challenging legal issues.",
+    "summary": "With 8 years of experience, Sophia Thompson is a compassionate family law attorney specializing in divorce, child custody, and adoption cases. She provides comprehensive legal services to individuals and families, guiding them through the complexities of family law matters with empathy and expertise. Sophia is known for her compassionate approach, her ability to listen to her clients' needs, and her dedication to finding practical and favorable solutions for families facing challenging legal issues. She works closely with her clients to protect their rights, promote the best interests of children, and support families through difficult transitions.",
+    "photo": "https://www.pexels.com/photo/a-businesswoman-reading-a-document-8872671/"
+  },
+  {
+    "name": "Thomas Davis",
+    "experience-length": 17,
+    "education": "J.D. from University of Chicago Law School (Graduation: May 2003)",
+    "practice-specialty": "Civil litigation",
+    "practice-areas": [
+      "Personal injury",
+      "Contract disputes",
+      "Business litigation"
+    ],
+    "achievements": "Successfully represented clients in civil litigation cases, including personal injury claims, contract disputes, and business litigation. Known for his strong advocacy skills and his commitment to obtaining favorable outcomes for his clients.",
+    "summary": "With 17 years of experience, Thomas Davis is a highly skilled civil litigation attorney specializing in personal injury claims, contract disputes, and business litigation. He has a track record of success in representing clients in complex civil cases, utilizing his strong advocacy skills, extensive legal knowledge, and strategic approach to obtain favorable outcomes. Thomas works closely with his clients to understand their goals, assess the merits of their cases, and provide effective legal representation throughout the litigation process. He is committed to protecting his clients' rights, seeking justice, and maximizing compensation for their losses.",
+    "photo": "https://www.pexels.com/photo/an-attorney-in-blue-suit-looking-at-documents-7841442/"
+  },
+  {
+    "name": "Olivia Wilson",
+    "experience-length": 7,
+    "education": "J.D. from University of California, Berkeley School of Law (Graduation: May 2014)",
+    "practice-specialty": "Immigration law",
+    "practice-areas": ["Visa applications", "Deportation defense", "Asylum"],
+    "achievements": "Assisted clients in various immigration matters, including visa applications, deportation defense, and asylum cases. Known for her comprehensive understanding of immigration laws and her dedication to helping individuals navigate the immigration process.",
+    "summary": "With 7 years of experience, Olivia Wilson is a dedicated immigration attorney specializing in visa applications, deportation defense, and asylum cases. She provides comprehensive legal services to individuals and families, guiding them through the complexities of the immigration process with compassion and expertise. Olivia is known for her in-depth knowledge of immigration laws, her strong advocacy skills, and her commitment to helping her clients achieve their immigration goals. She works tirelessly to protect her clients' rights, ensure a fair and just immigration process, and provide effective legal representation in all immigration-related matters.",
+    "photo": "https://www.pexels.com/photo/woman-working-at-the-desk-in-office-8111853/"
+  },
+  {
+    "name": "Michael Clark",
+    "experience-length": 14,
+    "education": "J.D. from University of Michigan Law School (Graduation: May 2007)",
+    "practice-specialty": "Intellectual property law",
+    "practice-areas": ["Patent law", "Trademark law", "Copyright law"],
+    "achievements": "Handled a wide range of intellectual property matters, including patent prosecution, trademark registration, and copyright infringement cases. Known for his expertise in intellectual property law and his commitment to protecting clients' rights.",
+    "summary": "With 14 years of experience, Michael Clark is a skilled intellectual property attorney specializing in patent law, trademark law, and copyright law. He provides comprehensive legal services to clients, assisting them with patent prosecution, trademark registration, and resolving copyright infringement disputes. Michael is known for his extensive knowledge of intellectual property laws, his meticulous attention to detail in drafting and prosecuting patent applications, and his commitment to protecting his clients' valuable intellectual assets. He works closely with inventors, entrepreneurs, and businesses to help them secure and enforce their intellectual property rights effectively.",
+    "photo": "https://www.pexels.com/photo/a-man-in-blue-suit-holding-a-black-leather-handbag-7875864/"
+  },
+  {
+    "name": "Samantha Edwards",
+    "experience-length": 12,
+    "education": "J.D. from Harvard Law School (Graduation: May 2009)",
+    "practice-specialty": "Criminal law",
+    "practice-areas": ["White-collar crimes", "Homicide", "Drug offenses"],
+    "achievements": "Successfully defended clients in high-profile criminal cases, including white-collar crimes, homicide, and drug offenses. Known for her courtroom expertise and her dedication to protecting clients' rights.",
+    "summary": "With 12 years of experience, Samantha Edwards is a highly respected criminal defense attorney specializing in white-collar crimes, homicide cases, and drug offenses. She has successfully defended clients in high-profile criminal cases, earning a reputation for her exceptional courtroom expertise, strategic defense strategies, and unwavering commitment to protecting her clients' rights. Samantha works diligently to analyze the unique aspects of each case, build a strong defense, and ensure that her clients receive fair treatment under the law. She provides personalized attention and rigorous representation to clients facing serious criminal charges, aiming to achieve the best possible outcomes.",
+    "photo": "https://www.pexels.com/photo/stylish-young-businesswoman-sitting-in-leather-armchair-4252621/"
+  }
+]
