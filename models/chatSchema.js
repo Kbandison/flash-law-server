@@ -3,8 +3,8 @@ const { v4: uuidv4 } = require("uuid");
 
 const chatSchema = new mongoose.Schema({
   id: { type: String, default: uuidv4 },
-  customer: String,
-  attorney: String,
+  customer: Object,
+  attorney: Object,
   log: [
     {
       by: String,

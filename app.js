@@ -29,7 +29,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use("/api", attorneyRoute);
+app.use("/api/attorneys", attorneyRoute);
 app.use("/api/users", usersRoute);
 app.use("/api/chats", chatsRoute);
 

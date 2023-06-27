@@ -1,9 +1,15 @@
-var express = require('express');
+var express = require("express");
 var router = express.Router();
+const {
+  getAttorneys,
+  getAttorney,
+  newAttorney,
+  deleteAttorneys,
+} = require("../controllers/attorneysController");
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+router.get("/", getAttorneys);
+router.post("/new-attorney", newAttorney);
+router.delete("/delete-attorneys", deleteAttorneys);
 
 module.exports = router;

@@ -6,6 +6,8 @@ const jwt = require("jsonwebtoken");
 const getUsers = async (req, res) => {
   try {
     const users = await User.find();
+
+    res.json({ users });
   } catch (error) {
     res.json({ message: error });
   }
@@ -15,24 +17,24 @@ const getUsers = async (req, res) => {
 const getUser = async (req, res) => {
   try {
     const user = await user.findOne({ _id: req.params.id });
+
+    res.json({ user });
   } catch (error) {
     res.json({ message: error });
   }
 };
 
 // REGISTER NEW USER
-const registerUser = async (res, req) => {
-  const {
-    firstName,
-    lastName,
-    email,
-    phoneNumber,
-    password,
-    confirmPassword,
-    role,
-  } = req.body;
-
+const registerUser = async (req, res) => {
   try {
+    const {
+      firstName,
+      lastName,
+      email,
+      phoneNumber,
+      password,
+      confirmPassword,
+    } = req.body;
     const existingUser = await User.findOne({ email });
 
     if (existingUser) {
@@ -57,11 +59,21 @@ const registerUser = async (res, req) => {
 
       await User.create(user);
 
-      res.status(200).json({ user, token: generateToken(user._id) });
+      res.status(200).json({
+        success: true,
+        user,
+        // token: generateToken(user._id)
+      });
     }
   } catch (error) {
-    res.json({ message: error.message });
+    res.json({ message: error });
   }
 };
 
 /// FINISH GENERATE TOKEN FOR REGUSTER USER!!
+
+module.exports = {
+  getUser,
+  getUsers,
+  registerUser,
+};
