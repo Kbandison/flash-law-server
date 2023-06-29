@@ -49,6 +49,8 @@ const newChat = async (req, res) => {
 const addMessage = async (req, res) => {
   try {
     // FIGURE OUT HOW TO SAVE MESSAGES WITH THE CORRECT PERSON WHO SENT IT ATTACHED
+    // ADD SECOND COLLECTIONS FOR THE ACTUAL MESSAGES, AND ATTACH CHAT ID TO EACH MESSAGE SENT ALONG WITH USER/ATTORNEY ID
+    // ATTATCH REQ.USER/ATTORNEY.ID TO MESSAGE AND ADD IT TO LOG ARRAY
   } catch (error) {
     res.json({ message: error.message });
   }
