@@ -1,5 +1,9 @@
 const Attorney = require("../models/attorneySchema");
 const attorneyList = require("../attorney.json");
+const bcrypt = require("bcryptjs");
+const jwt = require("jsonwebtoken");
+
+/****************************************ATTORNEY CONTROLLERS****************************************/
 
 // GET ATTORNEYS
 const getAttorneys = async (req, res) => {
@@ -58,6 +62,54 @@ const deleteAttorneys = async (req, res) => {
     res.json({ success: true });
   } catch (error) {
     res.json({ message: error.message });
+  }
+};
+
+/****************************************ATTORNEY AUTH CONTROLLERS****************************************/
+
+// REGISTER ATTORNEY
+const registerAttorney = async (req, res) => {
+  try {
+    const {
+      firstName,
+      lastName,
+      email,
+      phoneNumber,
+      password,
+      confirmPassword,
+    } = req.body;
+    const existingUser = await User.findOne({ email });
+
+    if (existingUser) {
+      return response.status(400).json({ message: "User already exists!" });
+    }
+
+    if (password !== confirmPassword) {
+      return response.status(400).json({ message: "Passwords do not match!" });
+    } else {
+      const hashedPassword = await bcrypt.hash(password, 12);
+
+      const role = email.includes("@fladmin.com") ? "admin" : "customer";
+
+      const user = new User({
+        firstName,
+        lastName,
+        email,
+        password: hashedPassword,
+        role,
+        phoneNumber,
+      });
+
+      await User.create(user);
+
+      res.status(200).json({
+        success: true,
+        user,
+        token: generateToken(user._id),
+      });
+    }
+  } catch (error) {
+    res.json({ message: error });
   }
 };
 

@@ -8,7 +8,7 @@ const attorneySchema = new mongoose.Schema({
   // email: { type: String, required: true },
   // password: { type: String, required: true },
   // confirmPassword: String,
-  // phoneNumber: { type: String },
+  phoneNumber: { type: String },
   role: { type: String, default: "attorney" },
   experience_length: Number,
   achievements: String,
@@ -17,6 +17,7 @@ const attorneySchema = new mongoose.Schema({
   areas_of_experience: Array,
   summary: String,
   assigned_users: Array,
+  photo: String,
   createdAt: { type: Date, default: Date.now },
   updatedAt: Date,
 });
