@@ -1,4 +1,5 @@
 const User = require("../models/userSchema");
+const Attorney = require("../models/attorneySchema");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
@@ -35,6 +36,7 @@ const registerUser = async (req, res) => {
         password: hashedPassword,
         role,
         phoneNumber,
+        attorney_assigned: null,
       });
 
       await User.create(user);
@@ -46,7 +48,7 @@ const registerUser = async (req, res) => {
       });
     }
   } catch (error) {
-    res.json({ message: error });
+    res.json({ message: error.message });
   }
 };
 
@@ -102,18 +104,19 @@ const getUsers = async (req, res) => {
 // GET USER BY ID
 const getUser = async (req, res) => {
   try {
-    const user = await user.findOne({ _id: req.params.id });
+    const user = await User.findOne({ _id: req.params.id });
 
     res.json({ user });
   } catch (error) {
-    res.json({ message: error });
+    res.json({ message: error.message });
   }
 };
 
 // UPDATE USER
 const updateUser = async (req, res) => {
   try {
-    const user = await User.findOne({ id: req.params.id });
+    const user = await User.findOne({ user: req.user._id });
+    console.log(user);
 
     !user && res.status(404).json("User not found!");
 
@@ -132,11 +135,51 @@ const updateUser = async (req, res) => {
       updatedObject.role = role;
     }
 
-    await User.updateOne({ id: req.params.id }, { $set: updatedObject });
+    await User.updateOne({ user }, { $set: updatedObject });
 
     res
       .status(200)
       .json({ message: "User has been updated!", user: updatedObject });
+  } catch (error) {
+    res.json({ message: error.message });
+  }
+};
+
+const addAttorney = async (req, res) => {
+  //update users assigned attorney, and add user to attorneys assigned users list
+  const id = req.params.id;
+  const user = await User.findOne({ _id: id });
+
+  const attorneyId = req.body.id;
+  const attorney = await Attorney.findOne({ _id: attorneyId });
+
+  !user && res.status(404).json("User not found!");
+  !attorney && res.status(404).json("Attorney not found!");
+
+  try {
+    if (user.attorney_assigned === attorneyId) {
+      return res.status(400).json({ message: "Attorney already assigned!" });
+    } else {
+      await User.updateOne(
+        { _id: id },
+        { $set: { attorney_assigned: attorneyId } }
+      );
+    }
+
+    if (attorney.assigned_users.includes(id)) {
+      return res.status(400).json({ message: "User already assigned!" });
+    } else {
+      await Attorney.updateOne(
+        { _id: attorneyId },
+        { $push: { assigned_users: id } }
+      );
+    }
+
+    res.status(200).json({
+      message: "Attorney has been added!",
+      user,
+      attorney,
+    });
   } catch (error) {
     res.json({ message: error.message });
   }
@@ -174,6 +217,7 @@ module.exports = {
   getUser,
   getUsers,
   updateUser,
+  addAttorney,
   registerUser,
   loginUser,
   deleteUser,

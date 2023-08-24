@@ -6,14 +6,17 @@ const {
   registerUser,
   loginUser,
   updateUser,
+  addAttorney,
   deleteUser,
   deleteAllUsers,
 } = require("../controllers/usersController");
+const { auth } = require("../middleware/auth");
 
 /*****************USER ROUTES****************/
 router.get("/", getUsers);
 router.get("/:id", getUser);
 router.put("/update-user/:id", updateUser);
+router.put("/add-attorney/:id", addAttorney);
 router.delete("/delete-user/:id", deleteUser);
 router.delete("/delete-all-users", deleteAllUsers);
 
