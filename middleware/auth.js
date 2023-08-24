@@ -1,4 +1,5 @@
 const jwt = require("jsonwebtoken");
+const User = require("../models/userSchema");
 
 const auth = async (req, res, next) => {
   let token;
@@ -20,6 +21,9 @@ const auth = async (req, res, next) => {
       res.status(401).json({
         message: "Auth token has expired!",
         message2: error.message,
+        message3: req.user,
+        message4: decoded,
+        message5: token,
       });
     }
   }

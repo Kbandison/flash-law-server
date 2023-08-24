@@ -147,10 +147,10 @@ const updateUser = async (req, res) => {
 
 const addAttorney = async (req, res) => {
   //update users assigned attorney, and add user to attorneys assigned users list
-  const id = req.params.id;
+  const id = req.user._id;
   const user = await User.findOne({ _id: id });
 
-  const attorneyId = req.body.id;
+  const attorneyId = req.params.id;
   const attorney = await Attorney.findOne({ _id: attorneyId });
 
   !user && res.status(404).json("User not found!");

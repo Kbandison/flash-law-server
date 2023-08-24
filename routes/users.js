@@ -15,8 +15,8 @@ const { auth } = require("../middleware/auth");
 /*****************USER ROUTES****************/
 router.get("/", getUsers);
 router.get("/:id", getUser);
-router.put("/update-user/:id", updateUser);
-router.put("/add-attorney/:id", addAttorney);
+router.put("/update-user/:id", auth, updateUser);
+router.put("/add-attorney/:id", auth, addAttorney);
 router.delete("/delete-user/:id", deleteUser);
 router.delete("/delete-all-users", deleteAllUsers);
 
