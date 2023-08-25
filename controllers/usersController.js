@@ -148,37 +148,27 @@ const updateUser = async (req, res) => {
 const addAttorney = async (req, res) => {
   //update users assigned attorney, and add user to attorneys assigned users list
   const id = req.user._id;
-  const user = await User.findOne({ _id: id });
 
   const attorneyId = req.params.id;
   const attorney = await Attorney.findOne({ _id: attorneyId });
 
-  !user && res.status(404).json("User not found!");
   !attorney && res.status(404).json("Attorney not found!");
 
   try {
-    if (user.attorney_assigned === attorneyId) {
-      return res.status(400).json({ message: "Attorney already assigned!" });
-    } else {
-      await User.updateOne(
-        { _id: id },
-        { $set: { attorney_assigned: attorneyId } }
-      );
-    }
+    await User.updateOne(
+      { _id: id },
+      { $set: { attorney_assigned: attorneyId } }
+    );
 
-    if (attorney.assigned_users.includes(id)) {
-      return res.status(400).json({ message: "User already assigned!" });
-    } else {
-      await Attorney.updateOne(
-        { _id: attorneyId },
-        { $push: { assigned_users: id } }
-      );
-    }
-
+    await Attorney.updateOne(
+      { _id: attorneyId },
+      { $push: { assigned_users: id } }
+    );
+    const user = await User.findOne({ _id: id });
+    console.log(user);
     res.status(200).json({
-      message: "Attorney has been added!",
+      success: true,
       user,
-      attorney,
     });
   } catch (error) {
     res.json({ message: error.message });
